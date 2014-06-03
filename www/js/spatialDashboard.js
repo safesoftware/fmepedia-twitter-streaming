@@ -1,6 +1,6 @@
 function initialize() {
 	// see FMEServer.js for parameter values
-	fmeserver = new FMEServer({
+	FMEServer.init({
 		server : "http://twitter-streaming-demo-safe-software.fmecloud.com",
 		token : "c9b7ec669d44431ae7c456072280e716105b124b"
 	});
@@ -41,7 +41,7 @@ function initialize() {
 	if ("WebSocket" in window) {
 
 		// ============= AIS ====================
-		ws = fmeserver.getWebSocketConnection("twitter-stream-out");
+		ws = FMEServer.getWebSocketConnection("twitter-stream-out");
 
 		// receive
 		ws.onmessage = function (evt) {
