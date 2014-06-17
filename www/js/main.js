@@ -1,8 +1,8 @@
 function initialize() {
 	// see FMEServer.js for parameter values
 	FMEServer.init({
-		server : "http://twitter-streaming-demo-safe-software.fmecloud.com",
-		token : "c9b7ec669d44431ae7c456072280e716105b124b"
+		server : "https://fmepedia2014-safe-software.fmecloud.com",
+		token : "8be243c0fc2f5f34977050bdab57ebbdd3e72aa2"
 	});
 
 	var myLatlng = new google.maps.LatLng(17.7850,-12.4183);
