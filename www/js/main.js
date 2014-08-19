@@ -41,7 +41,7 @@ function initialize() {
 	if ("WebSocket" in window) {
 
 		// ============= AIS ====================
-		ws = FMEServer.getSecureWebSocketConnection("twitter-stream-out");
+		ws = FMEServer.getWebSocketConnection("twitter-stream-out");
 
 		// receive
 		ws.onmessage = function (evt) {
