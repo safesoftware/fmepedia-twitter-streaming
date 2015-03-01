@@ -5,50 +5,52 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "/Applications/FME 2014/Engine/fme" /Users/sharper/web_projects/fmepedia-twitter-streaming/fme/twitterfme.fmw
+#    C:\Apps\FME_15221\fme.exe C:\safegit\fmepedia-twitter-streaming\fme\twitterfme.fmw
 #    
 #    
+#! FME_REPROJECTION_ENGINE="FME"
+#! FME_BUILD_NUM="15221"
+#! SHOW_ANNOTATIONS="true"
+#! FME_DOCUMENT_PRIORGUID="ee25a4ba-7f0f-11e3-9196-b916d8baae14,9b1630dc-7f19-11e3-9196-b916d8baae14,20332616-7f20-11e3-90b3-c563075deb1c,8e9c6c64-7fa4-11e3-8128-f5f0a801aadc,bab9429a-7fa4-11e3-8217-cf6cf5426245,f4d15462-7fa5-11e3-9e43-d24e288f0a71,b076fc34-7fa7-11e3-9e43-d24e288f0a71,154eb084-7fcb-11e3-9ac8-a17f221ffea6,89203834-83bd-11e3-9f1e-f7dddbcfd720,ee244588-8523-11e3-89ab-fa68f48c72e0,120aaf26-8526-11e3-89ab-fa68f48c72e0,a202e942-852e-11e3-89ab-fa68f48c72e0,72f6925a-853a-11e3-989c-cf6128295cdd,063b0602-8542-11e3-989c-cf6128295cdd,2842be28-8544-11e3-989c-cf6128295cdd,705d9908-8549-11e3-8e3a-c019375af19a,509c9410-854a-11e3-8e3a-c019375af19a,443bc2d0-854b-11e3-8e3a-c019375af19a,ad063610-854b-11e3-8e3a-c019375af19a,bdca571e-854c-11e3-8e3a-c019375af19a,03f4432a-854e-11e3-8e3a-c019375af19a,f6c47e66-b394-11e3-8f89-ce02dbf54305,df4efffe-b466-11e3-84e8-cc7030da9a6b,cf6d7d44-b5c5-11e3-98ee-827bd7643240,d1ae7214-c427-11e3-882e-d6d54ab9270f,537329c0-c428-11e3-93b7-ed6c1971fafa,5aba3cd0-f648-11e3-82cb-aa932ca59a54,4cc7b80a-f64d-11e3-82cb-aa932ca59a54"
+#! MULTI_WRITER_DATASET_ORDER="BY_ID"
 #! PASSWORD=""
-#! ATTR_TYPE_ENCODING="SDF"
-#! VIEW_POSITION="-699 0"
-#! SHOW_INFO_NODES="true"
-#! FME_STROKE_MAX_DEVIATION="0"
-#! BEGIN_PYTHON=""
-#! FME_GEOMETRY_HANDLING="Enhanced"
-#! DESCRIPTION=""
+#! FME_DOCUMENT_GUID="5f51a3d6-9e00-44ab-8dec-48190ccbfff6"
 #! TITLE=""
+#! LOG_FILE=""
+#! LOG_MAX_RECORDED_FEATURES="200"
+#! FME_STROKE_MAX_DEVIATION="0"
+#! VIEW_POSITION="-699.007 0"
+#! SHOW_INFO_NODES="true"
+#! FME_GEOMETRY_HANDLING="Enhanced"
+#! HISTORY=""
+#! DOC_EXTENTS="3136 39"
+#! REQUIREMENTS=""
+#! REQUIREMENTS_KEYWORD=""
+#! DESTINATION_ROUTING_FILE=""
+#! END_PYTHON=""
+#! REDIRECT_TERMINATORS="NONE"
+#! BEGIN_TCL=""
+#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! ZOOM_SCALE="100"
+#! LOG_MAX_PRECISION="Yes"
+#! BEGIN_PYTHON=""
+#! LAST_SAVE_BUILD="FME(R) 2015 (20141127 - Build 15221 - WIN64)"
+#! WORKSPACE_VERSION="1"
+#! USAGE=""
+#! CATEGORY=""
+#! LAST_SAVE_DATE="2014-12-11T14:51:19"
+#! SOURCE="NONE"
+#! IGNORE_READER_FAILURE="No"
+#! ATTR_TYPE_ENCODING="SDF"
+#! FME_SERVER_SERVICES=""
+#! WARN_INVALID_XFORM_PARAM="Yes"
+#! DOC_TOP_LEFT="-659 -381"
+#! DESTINATION="NONE"
+#! DESCRIPTION=""
+#! SOURCE_ROUTING_FILE=""
 #! MAX_LOG_FEATURES="200"
 #! END_TCL=""
-#! FME_BUILD_NUM="14335"
-#! ZOOM_SCALE="100"
-#! CATEGORY=""
-#! REDIRECT_TERMINATORS="NONE"
 #! LEGAL_TERMS_CONDITIONS=""
-#! FME_REPROJECTION_ENGINE="FME"
-#! USAGE=""
-#! END_PYTHON=""
-#! HISTORY=""
-#! FME_DOCUMENT_PRIORGUID="ee25a4ba-7f0f-11e3-9196-b916d8baae14,9b1630dc-7f19-11e3-9196-b916d8baae14,20332616-7f20-11e3-90b3-c563075deb1c,8e9c6c64-7fa4-11e3-8128-f5f0a801aadc,bab9429a-7fa4-11e3-8217-cf6cf5426245,f4d15462-7fa5-11e3-9e43-d24e288f0a71,b076fc34-7fa7-11e3-9e43-d24e288f0a71,154eb084-7fcb-11e3-9ac8-a17f221ffea6,89203834-83bd-11e3-9f1e-f7dddbcfd720,ee244588-8523-11e3-89ab-fa68f48c72e0,120aaf26-8526-11e3-89ab-fa68f48c72e0,a202e942-852e-11e3-89ab-fa68f48c72e0,72f6925a-853a-11e3-989c-cf6128295cdd,063b0602-8542-11e3-989c-cf6128295cdd,2842be28-8544-11e3-989c-cf6128295cdd,705d9908-8549-11e3-8e3a-c019375af19a,509c9410-854a-11e3-8e3a-c019375af19a,443bc2d0-854b-11e3-8e3a-c019375af19a,ad063610-854b-11e3-8e3a-c019375af19a,bdca571e-854c-11e3-8e3a-c019375af19a,03f4432a-854e-11e3-8e3a-c019375af19a,f6c47e66-b394-11e3-8f89-ce02dbf54305,df4efffe-b466-11e3-84e8-cc7030da9a6b,cf6d7d44-b5c5-11e3-98ee-827bd7643240,d1ae7214-c427-11e3-882e-d6d54ab9270f,537329c0-c428-11e3-93b7-ed6c1971fafa,5aba3cd0-f648-11e3-82cb-aa932ca59a54"
-#! DOC_TOP_LEFT="-659 -381"
-#! REQUIREMENTS_KEYWORD=""
-#! SOURCE_ROUTING_FILE=""
-#! DESTINATION_ROUTING_FILE=""
-#! DESTINATION="NONE"
-#! LAST_SAVE_DATE="2014-06-17T11:29:21"
-#! FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#! WORKSPACE_VERSION="1"
-#! SOURCE="NONE"
-#! LAST_SAVE_BUILD="FME(R) 2014 SP2 (20140527 - Build 14335 - macosx)"
-#! FME_SERVER_SERVICES=""
-#! LOG_MAX_RECORDED_FEATURES="200"
-#! LOG_FILE=""
-#! REQUIREMENTS=""
-#! BEGIN_TCL=""
-#! DOC_EXTENTS="3136 39"
-#! FME_DOCUMENT_GUID="4cc7b80a-f64d-11e3-82cb-aa932ca59a54"
-#! SHOW_ANNOTATIONS="true"
-#! IGNORE_READER_FAILURE="No"
-#! WARN_INVALID_XFORM_PARAM="Yes"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -113,9 +115,11 @@
 #! TYPE="JSONFlattener"
 #! VERSION="2"
 #! POSITION="421 -351"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="421 -351 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -132,22 +136,24 @@
 #! <XFORM_ATTR ATTR_NAME="retweet_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="user.followers_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener"/>
-#! <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="JSON_ATTR" PARM_VALUE="_tweet_search_result"/>
+#! <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="coordinates.coordinates&lt;opencurly&gt;0&lt;closecurly&gt; coordinates.coordinates&lt;opencurly&gt;1&lt;closecurly&gt; coordinates place.full_name text retweet_count user.followers_count source "/>
+#! <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="5"
 #! TYPE="Tester"
 #! VERSION="2"
 #! POSITION="929 -366"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="929 -366 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="PASSED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -180,21 +186,23 @@
 #! <XFORM_ATTR ATTR_NAME="user.followers_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #! <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#! <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #! <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;coordinates.coordinates&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt; != &quot;&quot;"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="4"
 #! TYPE="VertexCreator"
 #! VERSION="0"
 #! POSITION="1420 -372"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="1420 -372 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -211,22 +219,24 @@
 #! <XFORM_ATTR ATTR_NAME="retweet_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="user.followers_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
-#! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
-#! <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(coordinates.coordinates{0})"/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(coordinates.coordinates{1})"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(coordinates.coordinates{0})"/>
+#! <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="15"
 #! TYPE="StringConcatenator"
 #! VERSION="6"
 #! POSITION="1910 -379"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="1910 -379 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -244,18 +254,21 @@
 #! <XFORM_ATTR ATTR_NAME="user.followers_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_concatenated" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;opencurly&gt;&lt;quote&gt;lat&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;coordinates.coordinates&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;lng&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;coordinates.coordinates&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;closecurly&gt;"/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="_concatenated"/>
 #! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator"/>
+#! <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;opencurly&gt;&lt;quote&gt;lat&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;coordinates.coordinates&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;lng&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;coordinates.coordinates&lt;opencurly&gt;1&lt;closecurly&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;closecurly&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="20"
 #! TYPE="TweetStreamer"
 #! VERSION="0"
 #! POSITION="-81 -348"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="-81 -348 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="TWEETS"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -267,54 +280,58 @@
 #! <OUTPUT_FEAT NAME="OTHER"/>
 #! <FEAT_COLLAPSED COLLAPSED="1"/>
 #! <XFORM_ATTR ATTR_NAME="_tweet_search_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#! <XFORM_PARM PARM_NAME="KEYWORDS" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TWITTER_USERNAME" PARM_VALUE="fmecloud"/>
 #! <XFORM_PARM PARM_NAME="AUTHENTICATION_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="LANGUAGES" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="HTTP_PROXY_USERNAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="KEYWORDS" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="USE_GEOMETRY" PARM_VALUE="Yes"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TweetStreamer"/>
-#! <XFORM_PARM PARM_NAME="POINT_BUFFER" PARM_VALUE="3"/>
-#! <XFORM_PARM PARM_NAME="HTTP_PROXY_PORT" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="HTTP_PROXY_PASSWORD" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="TWITTER_PASSWORD" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszWX8yrcut7GRSZCtOanIPaSRSAOMbWKKTBSBwlxHcLEyHvcinzUlGEm7oRQ3yLhF5kklH1LqsVz4cQn9cBwAoEKMtRlli/sCYw5uAdTFrS8jbxv4O6eJVBxMpXT52en3Af/ZUPvyB4YKD8djuHtvl0cgtzP6xkoy/HMKk3SA616ObelwdL14WhuVJPWW+QFODQXiv9iJiC13oNgTlbfil+I+ADaB++WZsCtbUlFIqM4SMswxsgxEVfc12VBQbHtJag1ka0WNsblwZdeEsL0obTYcTCnBSCwpgCoiov9GOXZZTpDALXpHInrG9pVrYXnOJuuFmmuD3bFSIcCaFycNUnROoRxidEJOv)"/>
-#! <XFORM_PARM PARM_NAME="HTTP_PROXY_URL" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="TWITTER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PROXY_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="HTTP_PROXY_AUTH_METHOD" PARM_VALUE="Basic"/>
+#! <XFORM_PARM PARM_NAME="HTTP_PROXY_URL" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="LANGUAGES" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="TWITTER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="HTTP_PROXY_PORT" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="HTTP_PROXY_USERNAME" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="PROXY_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="HTTP_PROXY_PASSWORD" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="POINT_BUFFER" PARM_VALUE="3"/>
+#! <XFORM_PARM PARM_NAME="TWITTER_USERNAME" PARM_VALUE="fmecloud"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TweetStreamer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="21"
 #! TYPE="Creator"
 #! VERSION="5"
 #! POSITION="-659 -342"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="-659 -342 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="14335"
 #! >
 #! <OUTPUT_FEAT NAME="CREATED"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
 #! <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;gt&gt;&lt;lt&gt;polygon&lt;gt&gt;&lt;lt&gt;line&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;line&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;polygon&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="EPSG:4326"/>
-#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#! <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;gt&gt;&lt;lt&gt;polygon&lt;gt&gt;&lt;lt&gt;line&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;coord&lt;space&gt;x=&lt;quote&gt;-180&lt;quote&gt;&lt;space&gt;y=&lt;quote&gt;-90&lt;quote&gt;&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;line&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;polygon&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#! <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#! <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="EPSG:4326"/>
+#! <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#! <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #! IDENTIFIER="17"
 #! TYPE="WebSocketSender"
 #! VERSION="0"
 #! POSITION="2477 -381"
-#! ORDER="5e+14"
+#! BOUNDING_RECT="2477 -381 0 0"
+#! ORDER="5e+014"
 #! PARMS_EDITED="true"
 #! ENABLED="true"
+#! LAST_PARM_EDIT="15221"
 #! >
 #! <OUTPUT_FEAT NAME="OUTPUT"/>
 #! <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -332,12 +349,12 @@
 #! <XFORM_ATTR ATTR_NAME="user.followers_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #! <XFORM_ATTR ATTR_NAME="_concatenated" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#! <XFORM_PARM PARM_NAME="PREAMBLE" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_op&lt;space&gt;:&lt;space&gt;&lt;apos&gt;open&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_stream_id&lt;space&gt;:&lt;space&gt;&lt;apos&gt;twitter-stream-out&lt;apos&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
-#! <XFORM_PARM PARM_NAME="DATA" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_op:&lt;space&gt;&lt;apos&gt;send&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_msg:&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;_concatenated&lt;closeparen&gt;&lt;apos&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
-#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WebSocketSender"/>
 #! <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! <XFORM_PARM PARM_NAME="DATA" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_op:&lt;space&gt;&lt;apos&gt;send&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_msg:&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;_concatenated&lt;closeparen&gt;&lt;apos&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#! <XFORM_PARM PARM_NAME="HOST" PARM_VALUE="wss://localhost:7078"/>
+#! <XFORM_PARM PARM_NAME="PREAMBLE" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_op&lt;space&gt;:&lt;space&gt;&lt;apos&gt;open&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ws_stream_id&lt;space&gt;:&lt;space&gt;&lt;apos&gt;twitter-stream-out&lt;apos&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #! <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! <XFORM_PARM PARM_NAME="HOST" PARM_VALUE="ws://localhost:7078"/>
+#! <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WebSocketSender"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -421,6 +438,7 @@ LOG_FILENAME "$(FME_MF_DIR)twitterfme.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
+LOG_MAX_PRECISION Yes
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
@@ -434,12 +452,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 MACRO WORKSPACE_NAME twitterfme
 MACRO FME_VIEWER_APP fmedatainspector
-# -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -451,7 +463,7 @@ MACRO Creator_COORDS  <Unused>
 INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
 INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
 INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate List MUST have four numbers - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
 FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<gt><lt>polygon<gt><lt>line<gt><lt>coord<space>x=<quote>-180<quote><space>y=<quote>-90<quote><solidus><gt><lt>coord<space>x=<quote>180<quote><space>y=<quote>-90<quote><solidus><gt><lt>coord<space>x=<quote>180<quote><space>y=<quote>90<quote><solidus><gt><lt>coord<space>x=<quote>-180<quote><space>y=<quote>90<quote><solidus><gt><lt>coord<space>x=<quote>-180<quote><space>y=<quote>-90<quote><solidus><gt><lt><solidus>line<gt><lt><solidus>polygon<gt><lt><solidus>geometry<gt>)
 FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
 FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys(EPSG:4326)        fme_feature_type Creator
@@ -463,7 +475,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE __
 # JSONQueryFactory to explode the response into separate tweets, and extract
 # some parts of each tweet.
 
-FACTORY_DEF * TwitterFactory    FACTORY_NAME TweetStreamer_Tweeter    INPUT  FEATURE_TYPE Creator_CREATED       ACTION STREAM       TWITTER_USERNAME "fmecloud"       TWITTER_PASSWORD "fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszWX8yrcut7GRSZCtOanIPaSRSAOMbWKKTBSBwlxHcLEyHvcinzUlGEm7oRQ3yLhF5kklH1LqsVz4cQn9cBwAoEKMtRlli/sCYw5uAdTFrS8jbxv4O6eJVBxMpXT52en3Af/ZUPvyB4YKD8djuHtvl0cgtzP6xkoy/HMKk3SA616ObelwdL14WhuVJPWW+QFODQXiv9iJiC13oNgTlbfil+I+ADaB++WZsCtbUlFIqM4SMswxsgxEVfc12VBQbHtJag1ka0WNsblwZdeEsL0obTYcTCnBSCwpgCoiov9GOXZZTpDALXpHInrG9pVrYXnOJuuFmmuD3bFSIcCaFycNUnROoRxidEJOv)"       HALT_ON_HTTP_ERROR NO       INCLUDE_GEOMETRY Yes       SEARCH_RADIUS 3       PROXY_AUTHMETHOD Basic    OUTPUT TWEET FEATURE_TYPE "TweetStreamer_TwitterResponse"
+FACTORY_DEF * TwitterFactory    FACTORY_NAME TweetStreamer_Tweeter    INPUT  FEATURE_TYPE Creator_CREATED       ACTION STREAM       TWITTER_USERNAME "fmecloud"       TWITTER_PASSWORD "fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszWX8yrcut7GRSZCtOanIPaSRSAOMbWKKTBSBwlxHcLEyHvcinzUlGEm7oRQ3yLhF5kklH1LqsVz4cQn9cBwAoEKMtRlli/sCYw5uAdTFrS8jbxv4O6eJVBxMpXT52en3Af/ZUPvyB4YKD8djuHtvl0cgtzP6xkoy/HMKk3SA616ObelwdL14WhuVJPWW+QFODQXiv9iJiC13oNgTlbfil+I+ADaB++WZsCtbUlFIqM4SMswxsgxEVfc12VBQbHtJag1ka0WNsblwZdeEsL0obTYcTCnBSCwpgCoiov9GOXZZTpDALXpHInrG9pVrYXnOJuuFmmuD3bFSIcCaFycNUnROoRxidEJOv)"       HALT_ON_HTTP_ERROR NO       INCLUDE_GEOMETRY Yes       SEARCH_RADIUS "3"       PROXY_AUTHMETHOD Basic    OUTPUT TWEET FEATURE_TYPE "TweetStreamer_TwitterResponse"
 # -------------------------------------------------------------------------
 # For each status update, extract several bits of info... text, time, etc.
 
@@ -501,16 +513,16 @@ FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator    INPUT  FEATU
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc StringConcatenator_4cc85d00_f64d_11e3_82cb_aa932ca59a540_doSetAttr {attrText} {    FME_SetAttribute [FME_DecodeText {_concatenated}] [FME_DecodeText $attrText] }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE VertexCreator_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT        @Tcl2("StringConcatenator_4cc85d00_f64d_11e3_82cb_aa932ca59a540_doSetAttr {@EvaluateExpression(STRING_ENCODED,<opencurly><quote>lat<quote>:<space><quote><at>Value<openparen>coordinates.coordinates<opencurly>0<closecurly><closeparen><quote><comma><quote>lng<quote>:<space><quote><at>Value<openparen>coordinates.coordinates<opencurly>1<closecurly><closeparen><quote><closecurly>,StringConcatenator)} ")
+Tcl2 proc StringConcatenator_b6577305_350b_4148_9882_1b30a63180e40_doSetAttr {attrText} {    FME_SetAttribute [FME_DecodeText {_concatenated}] [FME_DecodeText $attrText] }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE VertexCreator_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT        @Tcl2("StringConcatenator_b6577305_350b_4148_9882_1b30a63180e40_doSetAttr {@EvaluateExpression(STRING_ENCODED,<opencurly><quote>lat<quote>:<space><quote><at>Value<openparen>coordinates.coordinates<opencurly>0<closecurly><closeparen><quote><comma><quote>lng<quote>:<space><quote><at>Value<openparen>coordinates.coordinates<opencurly>1<closecurly><closeparen><quote><closecurly>,StringConcatenator)} ")
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * COM.safe.fme.factory.WebSocketFactory    FACTORY_NAME WebSocketSender       INPUT  FEATURE_TYPE StringConcatenator_OUTPUT    DIRECTION SEND    INITIATION_SEQUENCE CONNECT    HOST "@EvaluateExpression(STRING,ws://localhost:7078,WebSocketSender)"    PREAMBLE "@EvaluateExpression(STRING,<opencurly><lf><space><space><space>ws_op<space>:<space><apos>open<apos><comma><lf><space><space><space>ws_stream_id<space>:<space><apos>twitter-stream-out<apos><lf><closecurly>,WebSocketSender)"    DATA "@EvaluateExpression(STRING,@EvaluateExpression(STRING_ENCODED,<opencurly><lf><space><space><space><space>ws_op:<space><apos>send<apos><comma><lf><space><space><space><space>ws_msg:<space><apos><at>Value<openparen>_concatenated<closeparen><apos><lf><closecurly>,WebSocketSender),WebSocketSender)"
+FACTORY_DEF * COM.safe.fme.factory.WebSocketFactory    FACTORY_NAME WebSocketSender       INPUT  FEATURE_TYPE StringConcatenator_OUTPUT    DIRECTION SEND    INITIATION_SEQUENCE CONNECT    HOST "@EvaluateExpression(STRING,wss://localhost:7078,WebSocketSender)"    PREAMBLE "@EvaluateExpression(STRING,<opencurly><lf><space><space><space>ws_op<space>:<space><apos>open<apos><comma><lf><space><space><space>ws_stream_id<space>:<space><apos>twitter-stream-out<apos><lf><closecurly>,WebSocketSender)"    DATA "@EvaluateExpression(STRING,@EvaluateExpression(FDIV,STRING_ENCODED,<opencurly><lf><space><space><space><space>ws_op:<space><apos>send<apos><comma><lf><space><space><space><space>ws_msg:<space><apos><at>Value<openparen>_concatenated<closeparen><apos><lf><closecurly>,WebSocketSender),WebSocketSender)"
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory   FACTORY_NAME "Final Output Feature Type Router"   INPUT FEATURE_TYPE *   TEST @Value(__wb_out_feat_type__) != ""   OUTPUT PASSED FEATURE_TYPE *     @FeatureType(@Value(__wb_out_feat_type__))   OUTPUT FAILED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   INPUT FEATURE_TYPE *   OUTPUT ROUTED FEATURE_TYPE * @FeatureType(ENCODED,@Value(__wb_out_feat_type__)) @RemoveAttributes(__wb_out_feat_type__)   OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
